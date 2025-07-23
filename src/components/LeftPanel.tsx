@@ -223,7 +223,6 @@ export const LeftPanel: React.FC = () => {
                     <Clock size={16} className="text-blue-600" />
                     <span>Horários de Operação</span>
                   </button>
-        </div>
 
                   <button
                     onClick={() => handleMenuClick('Pagamentos')}
@@ -242,7 +241,6 @@ export const LeftPanel: React.FC = () => {
                     </div>
                     <span>Documentos Pessoais</span>
                   </button>
-        {/* Footer */}
                   <button
                     onClick={() => handleMenuClick('Presença / Acesso atual')}
                     className={`w-full flex items-center space-x-2 p-2 rounded-lg ${darkMode ? 'hover:bg-gray-700 text-gray-300' : 'hover:bg-gray-100 text-gray-700'} transition-colors text-left text-sm`}
@@ -264,7 +262,6 @@ export const LeftPanel: React.FC = () => {
                   <CreditCard size={16} className="text-green-600" />
                   <span>Conta Corrente</span>
                 </button>
-        <div className={`p-4 border-t ${darkMode ? 'border-gray-700 bg-gray-900' : 'border-gray-100 bg-gray-50'}`}>
                 <button
                   onClick={() => handleMenuClick('Horários de Operação')}
                   className={`w-full flex items-center space-x-2 p-2 rounded-lg ${darkMode ? 'hover:bg-gray-700 text-gray-300' : 'hover:bg-gray-100 text-gray-700'} transition-colors text-left text-sm`}
@@ -272,7 +269,6 @@ export const LeftPanel: React.FC = () => {
                   <Clock size={16} className="text-blue-600" />
                   <span>Horários de Operação</span>
                 </button>
-          <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'} text-center`}>
                 <button
                   onClick={() => handleMenuClick('Pagamentos')}
                   className={`w-full flex items-center space-x-2 p-2 rounded-lg ${darkMode ? 'hover:bg-gray-700 text-gray-300' : 'hover:bg-gray-100 text-gray-700'} transition-colors text-left text-sm`}
@@ -280,7 +276,6 @@ export const LeftPanel: React.FC = () => {
                   <CreditCard size={16} className="text-purple-600" />
                   <span>Pagamentos</span>
                 </button>
-            Minicontratos v1.0 • Seguro e confiável
                 <button
                   onClick={() => handleMenuClick('Documentos Pessoais')}
                   className={`w-full flex items-center space-x-2 p-2 rounded-lg ${darkMode ? 'hover:bg-gray-700 text-gray-300' : 'hover:bg-gray-100 text-gray-700'} transition-colors text-left text-sm`}
@@ -291,7 +286,6 @@ export const LeftPanel: React.FC = () => {
                   </div>
                   <span>Documentos Pessoais</span>
                 </button>
-          </p>
                 <button
                   onClick={() => handleMenuClick('Presença / Acesso atual')}
                   className={`w-full flex items-center space-x-2 p-2 rounded-lg ${darkMode ? 'hover:bg-gray-700 text-gray-300' : 'hover:bg-gray-100 text-gray-700'} transition-colors text-left text-sm`}
@@ -302,6 +296,13 @@ export const LeftPanel: React.FC = () => {
               </nav>
             </div>
           )}
+        </div>
+
+        {/* Footer */}
+        <div className={`p-4 border-t ${darkMode ? 'border-gray-700 bg-gray-900' : 'border-gray-100 bg-gray-50'}`}>
+          <p className={`text-xs ${darkMode ? 'text-gray-400' : 'text-gray-500'} text-center`}>
+            Minicontratos v1.0 • Seguro e confiável
+          </p>
         </div>
       </div>
     </>
