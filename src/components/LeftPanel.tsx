@@ -222,7 +222,6 @@ export const LeftPanel: React.FC = () => {
                   >
                     <Clock size={16} className="text-blue-600" />
                     <span>Horários de Operação</span>
-                  </button>
 
                   <button
                     onClick={() => handleMenuClick('Pagamentos')}
@@ -294,6 +293,7 @@ export const LeftPanel: React.FC = () => {
                   <span>Presença / Acesso</span>
                 </button>
               </nav>
+              </div>
             </div>
           )}
         </div>
