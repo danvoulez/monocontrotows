@@ -220,7 +220,6 @@ export const LeftPanel: React.FC = () => {
                     onClick={() => handleMenuClick('Horários de Operação')}
                     className={`w-full flex items-center space-x-2 p-2 rounded-lg ${darkMode ? 'hover:bg-gray-700 text-gray-300' : 'hover:bg-gray-100 text-gray-700'} transition-colors text-left text-sm`}
                   >
-                    <Clock size={16} className="text-blue-600" />
 
                   <button
                     onClick={() => handleMenuClick('Pagamentos')}
